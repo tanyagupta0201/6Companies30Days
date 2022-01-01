@@ -8,7 +8,7 @@ using namespace std;
 int FindPosition(int a, int b, int c)
 {
     int n;
-
+    /* c + a = If they are in a straight line, -1 first toy current child ko jaa raha hai aage nhi badh rhe hai, % b if they are in a circle*/
     n = (a + c - 1) % b;
 
     if (n == 0)
