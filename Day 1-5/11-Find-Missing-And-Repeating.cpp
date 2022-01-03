@@ -1,3 +1,5 @@
+// Problem Link: https://www.interviewbit.com/problems/repeat-and-missing-number-array/
+
 /*
     1) Approach 1: Count Sort
 
@@ -76,6 +78,7 @@ public:
         int x = 0; // missing number
         int y = 0; // repeated number
         int xor1 = 0;
+        int n = arr.size();
 
         /* (all elements of array) XOR (all numbers from 1 to n) = Will give 2 numbers- missing and repeated number */
 
@@ -100,7 +103,7 @@ public:
         int setBitNumber;
         setBitNumber = xor1 & ~(xor1 - 1);
 
-        for (i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)
         {
             if (arr[i] & setBitNumber)
                 /* arr[i] belongs to first set */
@@ -111,7 +114,7 @@ public:
         }
 
         // Again traverse through all the numbers from 1 to n, and classify them into 2 buckets according to the rightmost set bit
-        for (i = 1; i <= n; i++)
+        for (int i = 1; i <= n; i++)
         {
             if (i & setBitNumber)
                 /* i belongs to first set */
