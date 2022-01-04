@@ -1,5 +1,5 @@
 # 6Companies30Days
-This Repository will contain all the solutions of the 30 Day Coding Challenge by [Arsh Goyal](https://www.linkedin.com/in/arshgoyal/).
+This Repository will contain all the solutions of the 30 Day Coding Challenge of January, 2022 by [Arsh Goyal](https://www.linkedin.com/in/arshgoyal/).
 
 ## Day 1-5 (Goldman Sachs)
 
