@@ -1,5 +1,7 @@
 // Problem Link: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 
+// YouTube Link: https://youtu.be/bWowdBPkidw
+
 class Solution
 {
 public:
